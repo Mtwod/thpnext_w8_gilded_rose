@@ -32,7 +32,12 @@ Conjured elements:
 ### Absolute rules
 
 - quality >= 0 && quality <= 50
-- 'Sulfuras' has no expiration date and never changes quality
+- 'Sulfuras' has no expiration date and a quality of 80 that never changes
+
+### File edition rules
+
+- Shop: any changes is alright, as long as it is working
+- Item: No modification. Only a method "updateQuality" or static properties are allowed.
 
 ## Author
 
