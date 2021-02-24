@@ -12,21 +12,26 @@ Each day:
 
 - sellIn - 1
 - quality - 1
+- once quality equals zero, it won't decrease
 
 Once expired:
 
 - quality - 2
 
-Aged Brie and Backstage passes:
+Aged Brie:
+- quality + 1
+- inrease event after expiration
+
+Backstage passes:
 
 - quality + 1
 - if (sellIn <= 10) quality + 2
-- if (sellIn < 5) quality + 3
-- if (sellIn = 0) quality = 0
+- if (sellIn <= 5) quality + 3
+- if (sellIn <= 0) quality = 0
 
 Conjured elements:
 
-- quality - 2
+- quality decreases twice as fast for normal items
 - "Conjured" is a prefix, so a conjured item will be named "Conjured Magic Stick", "Conjured somthing"
 
 ### Absolute rules
