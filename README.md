@@ -6,6 +6,8 @@ We use the npm package Jasmine for our tests, only a few were written, so the re
 
 ## The rules
 
+Each item has a `name`, a number of days remaining before expiration (`sellIn`) and a `quality`.
+
 ### Day to day rules
 
 Each day:
